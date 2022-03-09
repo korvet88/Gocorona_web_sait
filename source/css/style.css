@@ -49,3 +49,54 @@ body {
     margin: 0px auto;
     
 }
+
+.header {
+}
+.header__container {
+    display: flex;
+    min-height: 114px;
+    align-items: center; 
+}
+.header__logo {
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+}
+.header__button {
+    flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button {
+    display: inline-block;
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #FCFDFE;
+    padding: 14px 30px;
+    border-radius: 5px;
+    background-color: #EC5863;
+    transition: all 0.3s ease 0s;
+}
+.button:hover{
+    background-color: #eb9ca2;
+}
+
+.button_blue {
+    background-color: #4285F4;
+}
+.button_blue:hover{
+    background-color: #8aade4;
+}
