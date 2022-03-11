@@ -42,14 +42,29 @@ body {
     flex: 1 1 auto;
 
 }
-
-
 [class*="__container"] {
-    max-width: 1057px;
+    max-width: 1087px;
     margin: 0px auto;
-    
+    padding: 0px 15px;
 }
-
+/* PC */
+@media (max-wdth: 1057px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+/* TABLET */
+@media (max-wdth: 991.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+/* MOBILE */
+@media (max-wdth: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
 .header {
     position: absolute;
     width: 100%;
@@ -70,13 +85,14 @@ body {
 .menu {
     display: flex;
     justify-content: flex-end;
-    padding: 0 40px 0 0;
+
 }
 .menu__list {
     display: flex;
-    gap: 40px;
+
 }
 .menu__item {
+    margin: 0px 40px 0px 0px;
 }
 .menu__link{
     font-family: Raleway;
