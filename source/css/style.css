@@ -271,4 +271,39 @@ body {
         display: flex;
     }
 }
+
+/*=========================================================================*/
+
+.get-started__container {
+    background-color: #E5E5E5;
+    padding: 0 0 0 0;
+}
+.get-started_content {
+}
+.block-text {
+}
+.block-text__title {
+}
+.block-text__title_blue {
+}
+.block-text__text {
+}
+.block-text__button {
+}
+.button {
+}
+.get-started__video {
+}
+.video-get-started {
+}
+.video-get-started__icon {
+}
+.video-get-started__body {
+}
+.video-get-started__title {
+}
+.video-get-started__text {
+}
+.get-started_image {
+}
  
