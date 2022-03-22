@@ -30,7 +30,11 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 
+}
+.main {
+    flex: 1 1 auto;
 }
 
 /* --------------------- */
@@ -38,4 +42,30 @@ body {
     max-width: 1087px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.heeder__logo {
+}
+.menu__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__button {
+}
+.button {
+}
+.button__blue {
 }
