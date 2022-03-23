@@ -34,7 +34,7 @@ body {
 
 }
 .main {
-    flex: 1 1 auto;
+    flex: auto;
 }
 
 /* --------------------- */
@@ -51,10 +51,11 @@ body {
 }
 .header__logo {
 }
-.heeder__logo {
+.header__menu {
 }
-.menu__menu {
+.header__button {
 }
+
 .menu {
 }
 .menu__list {
@@ -63,8 +64,7 @@ body {
 }
 .menu__link {
 }
-.header__button {
-}
+
 .button {
 }
 .button__blue {
