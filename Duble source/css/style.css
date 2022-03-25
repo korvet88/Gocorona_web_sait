@@ -82,6 +82,14 @@ body {
 }
 
 .button {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #FCFDFE;
+
 }
 .button__blue {
 }
