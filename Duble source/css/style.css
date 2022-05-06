@@ -358,57 +358,96 @@ body {
         display: flex;
     }
 }
+
 /* ---------------------------------------------------------- */
 
+.block-text {}
+
+.block-text__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000;
+}
+
+.block-text__title:not(:last-child) {
+    margin: 0 0 12px 0;
+}
+
+.block-text__title span {
+    color: #EC5863;
+    ;
+}
+
+.block-text__title_blue span {
+    color: #4285F4;
+    ;
+}
+
+.block-text__text {
+    line-height: 138.5%;
+}
+
+.block-text__text:not(:last-child) {
+    margin: 0 0 24px 0;
+}
+
+.block-text__button {}
+
+/* ----------------------------------------------------------- */
 .get-started {
     background-color: #FAFBFD;
     padding: 150px 0px 50px 0px;
 }
-
 .get-started__container {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
 }
-
 .get-started__content {
     flex: 0 1 48%;
     padding: 0 0 0 20px;
 }
-
-.get-started__block-text {}
-
-.block-text {}
-
-.block-text__title {}
-
-.block-text__title_blue {}
-
-.block-text__text {}
-
-.block-text__button {}
-
-.button {}
-
-.get-started__video {
-    flex: 1 1 100%;
-    padding: 0 0 0 20px;
+.get-started__block-text {
+    max-width: 410px;
 }
-
-.video-get-started {
-    display: inline-flex;
-}
-
-.video-get-started__icon {}
-
-.video-get-started__body {}
-
-.video-get-started__title {}
-
-.video-get-started__text {}
-
 .get-started__image {
     flex: 0 1 52%;
+}
+.get-started__image:not(:last-child) {
+    margin: 0 0 60px 0;
 }
 .get-started__image img {
     max-width: 100%;
 }
+.get-started__video {
+    flex: 1 1 100%;
+    padding: 0 0 0 20px;
+}
+.video-get-started {
+    display: inline-flex;
+    align-items: center;
+}
+.video-get-started__icon {
+    flex: 0 0 44px;
+}
+.video-get-started__body {
+    padding: 0 0 0 12px;
+}
+.video-get-started__title {
+    color: #B0B0B0;
+    font-size: 13px;
+    line-height: 126%;
+}
+.video-get-started__title:not(:last-child) {
+    margin: 0 0 5px 0;
+}
+.video-get-started__text {
+    font-weight: 400;
+    font-size: 9px;
+    color: #000;
+    line-height: 126%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
