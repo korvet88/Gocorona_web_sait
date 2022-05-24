@@ -605,8 +605,10 @@ body {
 
 .experts__container {}
 
-.experts__statistics {
-    margin: 0 0 80px 0;
+.experts__statistics {}
+
+.experts__block-text {
+    max-width: 400px;
 }
 
 .statistics-experts {
@@ -615,12 +617,35 @@ body {
     position: relative;
 }
 
+.experts__body {
+    display: flex;
+    align-items: center;
+}
+.experts__content {
+    flex: 0 1 50%;
+}
+.experts__video {
+    flex: 0 1 50%;
+    padding: 0 0 30% 0;
+    position: relative;
+}
+
+.experts__video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
 .statistics-experts__body {
     background-color: #fff;
     box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
     border-radius: 16px;
     position: relative;
     z-index: 2;
+    margin: 0 0 80px 0;
 }
 
 .statistics-experts__decor {
